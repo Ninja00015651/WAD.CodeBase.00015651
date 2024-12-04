@@ -1,0 +1,62 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files from Visual Studio
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+*.ilk
+*.pdb
+*.ipch
+*.obj
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+_build/
+*.BuildLog.*
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# ASP.NET files
+aspnet_client/
+bin/
+obj/
+
+# NuGet
+*.nupkg
+packages/
+# Include packages/*.dll if developing a NuGet package
+!packages/*.dll
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider/JetBrains IDE files
+.idea/
+
+# Ignore application-specific configuration files
+appsettings.json
+appsettings.*.json
+
+# Logs and Database
+*.log
+logs/
+*.sqlite
+*.db
+*.bak
+
+# Ignore by name
+**/*.swp
+**/*.swo

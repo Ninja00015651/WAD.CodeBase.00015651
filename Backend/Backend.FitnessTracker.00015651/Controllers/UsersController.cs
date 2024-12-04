@@ -20,14 +20,18 @@ namespace Backend.FitnessTracker._00015651.Controllers
         [HttpGet]
         public IActionResult GetUsers()
         {
-            return Ok(_context.Users.ToList());
+            return Ok(_context.Users.Include(u => u.Progress).Include(u => u.Workouts).ToList());
         }
 
         // GET: api/Users/{id}
         [HttpGet("{id}")]
         public IActionResult GetUser(int id)
         {
-            var user = _context.Users.Find(id);
+            var user = _context.Users
+                .Include(u => u.Progress)
+                .Include(u => u.Workouts)
+                .FirstOrDefault(u => u.UserId == id);
+
             if (user == null)
             {
                 return NotFound();
@@ -48,40 +52,21 @@ namespace Backend.FitnessTracker._00015651.Controllers
 
         // PUT: api/Users/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, [FromBody] User updatedUser)
+        public IActionResult UpdateUser(int id, [FromBody] User updatedUser)
         {
-            // Validate the input
-            if (updatedUser == null)
-            {
-                return BadRequest("Invalid user data.");
-            }
-
-            // Find the user by ID
-            var user = await _context.Users.FindAsync(id);
+            var user = _context.Users.Find(id);
             if (user == null)
             {
-                return NotFound($"User with ID {id} was not found.");
+                return NotFound();
             }
 
-            // Update the user properties
             user.Name = updatedUser.Name;
             user.Email = updatedUser.Email;
             user.PasswordHash = updatedUser.PasswordHash;
 
-            try
-            {
-                // Save changes to the database
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException ex)
-            {
-                // Handle potential database update errors
-                return StatusCode(500, $"An error occurred while updating the user: {ex.Message}");
-            }
-
-            return NoContent(); // Indicate success without returning content
+            _context.SaveChanges();
+            return NoContent();
         }
-
 
         // DELETE: api/Users/{id}
         [HttpDelete("{id}")]
@@ -90,14 +75,13 @@ namespace Backend.FitnessTracker._00015651.Controllers
             var user = _context.Users.Find(id);
             if (user == null)
             {
-                return NotFound(new { message = "User not found." });
+                return NotFound();
             }
 
             _context.Users.Remove(user);
             _context.SaveChanges();
 
-            return NoContent(); // Indicates successful deletion with no content
+            return NoContent();
         }
-
     }
 }

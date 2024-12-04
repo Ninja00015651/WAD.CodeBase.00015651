@@ -1,13 +1,33 @@
-﻿namespace Backend.FitnessTracker._00015651.Models;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-public class Workout
+namespace Backend.FitnessTracker._00015651.Models
 {
-    public int WorkoutId { get; set; }
-    public int UserId { get; set; }
-    public DateTime Date { get; set; }
-    public string Type { get; set; }
-    public int Duration { get; set; }
-    public int CaloriesBurned { get; set; }
+    public class Workout
+    {
+        [Key]
+        public int WorkoutId { get; set; }
 
-    public User User { get; set; }
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+
+        [Required]
+        public DateTime Date { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Type { get; set; }
+
+        [Range(0, int.MaxValue)]
+        public int Duration { get; set; }
+
+        [Range(0, int.MaxValue)]
+        public int CaloriesBurned { get; set; }
+
+        // Navigation property (JsonIgnore added to prevent circular references)
+        [JsonIgnore]
+        public User? User { get; set; }
+    }
 }

@@ -17,10 +17,10 @@ namespace Backend.FitnessTracker._00015651.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "6.0.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.Progress", b =>
                 {
@@ -28,13 +28,18 @@ namespace Backend.FitnessTracker._00015651.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProgressId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProgressId"), 1L, 1);
 
                     b.Property<int>("CaloriesConsumed")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<int>("Steps")
                         .HasColumnType("int");
@@ -49,13 +54,39 @@ namespace Backend.FitnessTracker._00015651.Migrations
                     b.ToTable("Progress");
                 });
 
+            modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.Workout", b =>
                 {
                     b.Property<int>("WorkoutId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WorkoutId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WorkoutId"), 1L, 1);
 
                     b.Property<int>("CaloriesBurned")
                         .HasColumnType("int");
@@ -68,7 +99,8 @@ namespace Backend.FitnessTracker._00015651.Migrations
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -80,35 +112,10 @@ namespace Backend.FitnessTracker._00015651.Migrations
                     b.ToTable("Workouts");
                 });
 
-            modelBuilder.Entity("User", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("Users");
-                });
-
             modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.Progress", b =>
                 {
-                    b.HasOne("User", "User")
-                        .WithMany()
+                    b.HasOne("Backend.FitnessTracker._00015651.Models.User", "User")
+                        .WithMany("Progress")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -118,13 +125,20 @@ namespace Backend.FitnessTracker._00015651.Migrations
 
             modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.Workout", b =>
                 {
-                    b.HasOne("User", "User")
-                        .WithMany()
+                    b.HasOne("Backend.FitnessTracker._00015651.Models.User", "User")
+                        .WithMany("Workouts")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Backend.FitnessTracker._00015651.Models.User", b =>
+                {
+                    b.Navigation("Progress");
+
+                    b.Navigation("Workouts");
                 });
 #pragma warning restore 612, 618
         }
