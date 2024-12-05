@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\controllers\\workoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:controllers\\workoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +19,8 @@
       "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\bin\\Debug\\net8.0\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\backend.fitnesstracker.00015651.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:backend.fitnesstracker.00015651.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A0CEB80-BA07-4DD2-A646-54BA1FCBEC7F}|Backend.FitnessTracker.00015651.csproj|c:\\users\\user\\source\\repos\\wad.codebase.00015651\\backend\\backend.fitnesstracker.00015651\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-04T08:06:22.027Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
@@ -119,19 +78,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:04:32.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T08:06:22.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Progress.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Models\\Progress.cs",
               "RelativeDocumentMoniker": "Models\\Progress.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Models\\Progress.cs",
               "RelativeToolTip": "Models\\Progress.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T11:48:39.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -143,116 +127,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Workout.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Models\\Workout.cs",
               "RelativeDocumentMoniker": "Models\\Workout.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Models\\Workout.cs",
               "RelativeToolTip": "Models\\Workout.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAywCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T11:48:12.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowFAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:40:02.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProgressController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\ProgressController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProgressController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\ProgressController.cs",
-              "RelativeToolTip": "Controllers\\ProgressController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:07:05.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:45:33.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:22:44.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WorkoutsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\WorkoutsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WorkoutsController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Controllers\\WorkoutsController.cs",
-              "RelativeToolTip": "Controllers\\WorkoutsController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowDoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:29:12.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-29T06:09:09.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "RelativeToolTip": "bin\\Debug\\net8.0\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-29T06:01:25.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Backend.FitnessTracker.00015651.http",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Backend.FitnessTracker.00015651.http",
-              "RelativeDocumentMoniker": "Backend.FitnessTracker.00015651.http",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Backend.FitnessTracker.00015651.http",
-              "RelativeToolTip": "Backend.FitnessTracker.00015651.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-29T05:46:36.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -264,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "20241128122349_UpdateUserId.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WAD.CodeBase.00015651\\Backend\\Backend.FitnessTracker.00015651\\Migrations\\20241128122349_UpdateUserId.cs",
               "RelativeDocumentMoniker": "Migrations\\20241128122349_UpdateUserId.cs",
