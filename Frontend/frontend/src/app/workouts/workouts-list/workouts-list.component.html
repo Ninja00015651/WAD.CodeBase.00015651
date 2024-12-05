@@ -1,0 +1,32 @@
+<div>
+    <h1>Workouts</h1>
+    <button routerLink="/workouts/add">Add Workout</button>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User ID</th>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Duration</th>
+          <th>Calories Burned</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let workout of workouts">
+          <td>{{ workout.workoutId }}</td>
+          <td>{{ workout.userId }}</td>
+          <td>{{ workout.date }}</td>
+          <td>{{ workout.type }}</td>
+          <td>{{ workout.duration }}</td>
+          <td>{{ workout.caloriesBurned }}</td>
+          <td>
+            <button (click)="editWorkout(workout.workoutId)">Edit</button>
+            <button (click)="deleteWorkout(workout.workoutId)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

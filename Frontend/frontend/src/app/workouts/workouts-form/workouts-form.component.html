@@ -1,0 +1,22 @@
+<div>
+    <h1>{{ isEditMode ? 'Edit Workout' : 'Add Workout' }}</h1>
+    <form (ngSubmit)="onSubmit()">
+      <label for="userId">User ID:</label>
+      <input type="number" id="userId" [(ngModel)]="workout.userId" name="userId" required />
+  
+      <label for="date">Date:</label>
+      <input type="date" id="date" [(ngModel)]="workout.date" name="date" required />
+  
+      <label for="type">Type:</label>
+      <input type="text" id="type" [(ngModel)]="workout.type" name="type" required />
+  
+      <label for="duration">Duration (minutes):</label>
+      <input type="number" id="duration" [(ngModel)]="workout.duration" name="duration" required />
+  
+      <label for="caloriesBurned">Calories Burned:</label>
+      <input type="number" id="caloriesBurned" [(ngModel)]="workout.caloriesBurned" name="caloriesBurned" required />
+  
+      <button type="submit">{{ isEditMode ? 'Update' : 'Add' }}</button>
+    </form>
+  </div>
+  
